@@ -2,6 +2,6 @@
   "name": "Logentries Heroku Sample",
   "description": "Logentries Heroku Sample",
   "repository": "https://github.com/siniar1990/heroku_button",
-  "logo": "https://github.com/siniar1990/heroku_button/blob/master/logo.png",
+  "logo": "https://github.com/siniar1990/heroku_button/logo.svg",
   "keywords": ["Logentries"]
 }
