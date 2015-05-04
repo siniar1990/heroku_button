@@ -1,7 +1,7 @@
 {
-  "name": "Logentries Heroku Sample",
-  "description": "Logentries Heroku Sample",
+  "name": "Logentries Sample App",
+  "description": "This app is running in the background and produces logs. Install Logentries add-on to view and analyse those logs.",
   "repository": "https://github.com/siniar1990/heroku_button",
   "logo": "http://upload.wikimedia.org/wikipedia/en/b/b5/Logentries_Logo_2014.svg",
-  "keywords": ["Logentries"]
+  "keywords": ["Logentries", "Log Analytics", "Real Time"]
 }
