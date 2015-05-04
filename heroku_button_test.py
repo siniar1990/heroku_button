@@ -100,26 +100,29 @@ def send_messages():
     if "TIMESTAMP" in w1:
         n_w1 = n_w1.replace("TIMESTAMP", timeStamp)
 
-    HOST = 'api.logentries.com'
-    PORT = 10000
-    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    s.connect((HOST, PORT))
+    #HOST = 'api.logentries.com'
+    #PORT = 10000
+    #s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    #s.connect((HOST, PORT))
 
 #    if webMessage.index(w1) > 10:
-    s.sendall('%s %s\n' % (webToken1, n_w1))
+    
+    #s.sendall('%s %s\n' % (webToken1, n_w1))
+
 #   elif webMessage.index(w1) > 5:
 #       s.sendall('%s %s\n' % (webToken1, n_w1))
 #   else:
 #       s.sendall('%s %s\n' % (webToken1, n_w1))
 
+	print n_w1
 
-    s.close()
+    #s.close()
 
 
 def main():
     while True:
         this_time = random.randint(1, 20)
-        print this_time
+        #print this_time
 
         time.sleep(this_time)
         random_number = random.randint(1, 75)
