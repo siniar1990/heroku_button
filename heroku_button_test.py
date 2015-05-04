@@ -6,10 +6,6 @@ import sys
 import datetime
 
 
-template = "<html><body><h1>Hello %s!</h1></body></html>"
-print template % "Reader"
-
-
 webToken1 = '2cb8e078-2b5f-44e9-ac6b-30daf38ede32'
 
 
