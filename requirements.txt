@@ -1,0 +1,12 @@
+awscli==1.7.4
+bcdoc==0.12.2
+botocore==0.85.0
+bottle==0.12.8
+colorama==0.2.5
+docutils==0.12
+jmespath==0.5.0
+pyasn1==0.1.7
+python-dateutil==2.4.0
+rsa==3.1.2
+six==1.9.0
+vboxapi==1.0
