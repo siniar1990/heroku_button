@@ -1,6 +1,7 @@
 {
-  "name": "Logentries Heroku Button",
-  "description": "Logentries Heroku Button",
-  "website": "www.logentries.com",
-  "success_url": "/heroku_button_test.py"
+  "name": "Logentries Heroku Sample",
+  "description": "Logentries Heroku Sample",
+  "repository": "https://github.com/siniar1990/heroku_button",
+  "logo": "https://github.com/siniar1990/heroku_button/blob/master/logo.png",
+  "keywords": ["Logentries"]
 }
